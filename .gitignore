@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+.eggs/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+deep_q_venv_older/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.coverage.*
+.cache
+nose2.xml
+coverage.xml
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# logs
+*.log
+
+# Model artifacts, weights and large binaries (use Git LFS instead)
+models/
+checkpoints/
+*.pt
+*.pth
+*.pth.tar
+*.ckpt
+*.h5
+*.hdf5
+*.t7
+*.bin
+*.npz
+*.zip
+*.tar.gz
+
+# Torch / native libs (sometimes large)
+**/libtorch*/
+**/site-packages/**/torch/**
+*.dylib
+*.so
+
+# Autorom / ROMs
+.roms/
+**/roms/
+
+# keep .gitignore itself tracked
+!/.gitignore
